@@ -7,7 +7,8 @@ from './components/Header';
 
 import {Header2} from './components/Header';
 import Channel from './components/Channel';
-
+import FunctionClick from './components/FunctionClick';
+import CfunctionClick from './components/CfunctionClick';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,8 @@ function App() {
     <Header name='Mohit'><p> He is a Gentle person.</p> 
      </Header>
      <Channel/>
+     <FunctionClick/>
+     <CfunctionClick/>
     </div>
   );
 }

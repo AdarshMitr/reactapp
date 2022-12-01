@@ -3,8 +3,7 @@ import React from 'react';
 //---functional component---
 
 export const Header=(props)=>{
-    console.log(props);
-
+   
 return (
 <> <h1>Hello {props.name} 
 {props.last}</h1>
