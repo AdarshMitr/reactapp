@@ -6,6 +6,7 @@ import {Header}
 from './components/Header';
 
 import {Header2} from './components/Header';
+import Channel from './components/Channel';
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
     <Header name='Anuj'/>
     <Header2 name='Lallu'/>
    
-    <Header name='Raju' last='Patel'/>
+    <Header name='Raju' last='Patel'>
+      <a href='#'>Click Me</a>
+      </Header>
     <Header name='Mohit'><p> He is a Gentle person.</p> 
      </Header>
-    
+     <Channel/>
     </div>
   );
 }
