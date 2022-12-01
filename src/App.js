@@ -10,10 +10,14 @@ import {Header2} from './components/Header';
 function App() {
   return (
     <div className="App">
+       
     <Header name='Anuj'/>
     <Header2 name='Lallu'/>
-    <Header name='Raju'/>
-    <Header name='Mohit'/>
+   
+    <Header name='Raju' last='Patel'/>
+    <Header name='Mohit'><p> He is a Gentle person.</p> 
+     </Header>
+    
     </div>
   );
 }

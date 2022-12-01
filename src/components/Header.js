@@ -5,8 +5,13 @@ import React from 'react';
 export const Header=(props)=>{
     console.log(props);
 
-    return <h1>Hello {props.name}</h1>
-}
+return (
+<> <h1>Hello {props.name} 
+{props.last}</h1>
+{props.children}
+</>
+)
+ }   
 
 //----Class Component----
 
