@@ -6,11 +6,14 @@ import {Header}
 from './components/Header';
 
 import {Header2} from './components/Header';
+
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <Header2/>
+    <Header name='Anuj'/>
+    <Header2 name='Lallu'/>
+    <Header name='Raju'/>
+    <Header name='Mohit'/>
     </div>
   );
 }
