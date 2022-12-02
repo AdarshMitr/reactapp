@@ -9,12 +9,20 @@ function FunctionClick() {
     }
     
   return (
-   <div>
-         <a href='https://google.com' onClick={changeEvent}>Click Me</a>
-    </div>
+   
+    <React.Fragment>
+    <a href='https://google.com' onClick={changeEvent}>
+      Click Me</a>
+    
+         
+
+         <h1>Hello Brother</h1>
+         </React.Fragment>
   )
 }
 
 export default FunctionClick
 
 //Event Handling should be function, not the function call.
+
+//Fragment is used to group multiple elements without creating extra node.<React.fragment> ------</React.Fragment> or<>--- </>
