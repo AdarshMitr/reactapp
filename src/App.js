@@ -23,7 +23,7 @@ function App() {
      </Header>
      <Channel/>
      <FunctionClick/>
-     <CfunctionClick/>
+     <CfunctionClick roll='22'/>
     </div>
   );
 }
