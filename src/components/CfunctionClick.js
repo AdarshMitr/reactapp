@@ -25,20 +25,27 @@ changeEvent=()=>{
   render() {
 
     //list in react
-    
-    const numbers=[3,4,5,6];
-    const newNumbers=numbers.map(function(numbers){
-      console.log(numbers);
-      return <li>{numbers}</li>
-    });
+
+    const numbers=this.props.numbers;
+    // const newNumbers=numbers.map((numbers)=>{ return <li>{numbers}</li>
+      // console.log(numbers);
+      // console.log(newNumbers);
+    // }
+    //);
 
     return (
       <>
         <button onClick={this.changeEvent}>Click Me too</button>
         {this.props.roll}
 
-        <ul>{newNumbers}</ul>
-
+        <ul>
+          {
+         numbers.map((numbers)=><li>{numbers}</li>
+        )
+      }
+         </ul>
+      
+      
       </>
 
     

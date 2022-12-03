@@ -10,6 +10,8 @@ import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CfunctionClick from './components/CfunctionClick';
 function App() {
+
+  const numbers=[3,4,5,6];
   return (
     <div className="App">
        
@@ -17,13 +19,13 @@ function App() {
     <Header2 name='Lallu'/>
    
     <Header name='Raju' last='Patel'>
-      <a href='#'>Click Me</a>
+      <a href='https://google.in'>Click Me</a>
       </Header>
     <Header name='Mohit'><p> He is a Gentle person.</p> 
      </Header>
      <Channel/>
      <FunctionClick/>
-     <CfunctionClick roll='22'/>
+     <CfunctionClick roll='22' numbers={numbers}/>
     </div>
   );
 }
