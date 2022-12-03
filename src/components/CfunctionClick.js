@@ -23,13 +23,27 @@ changeEvent=()=>{
 }
 
   render() {
+
+    //list in react
+    
+    const numbers=[3,4,5,6];
+    const newNumbers=numbers.map(function(numbers){
+      console.log(numbers);
+      return <li>{numbers}</li>
+    });
+
     return (
-      <div>
+      <>
         <button onClick={this.changeEvent}>Click Me too</button>
         {this.props.roll}
-      </div>
+
+        <ul>{newNumbers}</ul>
+
+      </>
+
+    
     )
   }
 }
 
-export default CfunctionClick
+export default CfunctionClick;
