@@ -40,7 +40,7 @@ changeEvent=()=>{
 
         <ul>
           {
-         numbers.map((numbers)=><li>{numbers}</li>
+         numbers.map((numbers)=><li key={numbers}>{numbers}</li>
         )
       }
          </ul>

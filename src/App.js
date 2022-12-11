@@ -9,13 +9,15 @@ import {Header2} from './components/Header';
 import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CfunctionClick from './components/CfunctionClick';
+import Stylesheet from './components/Stylesheet';
+
 function App() {
 
   const numbers=[3,4,5,6];
   return (
     <div className="App">
        
-    <Header name='Anuj'/>
+    {/* <Header name='Anuj'/>
     <Header2 name='Lallu'/>
    
     <Header name='Raju' last='Patel'>
@@ -25,7 +27,9 @@ function App() {
      </Header>
      <Channel/>
      <FunctionClick/>
-     <CfunctionClick roll='22' numbers={numbers}/>
+     <CfunctionClick roll='22' numbers={numbers}/> */}
+
+     <Stylesheet isvalue={false}></Stylesheet>
     </div>
   );
 }

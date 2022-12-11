@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //---functional component---
 
 export const Header=(props)=>{
@@ -28,9 +29,10 @@ return (
    
 const users= this.state.users.map(user=>{
   return(
-<h3>{user.id}:
+<h1 key={user.id}>{user.id}:
   {user.name}  from class-
-  {user.class}</h3>
+  {user.class}</h1>
+  
   )
   
 })
