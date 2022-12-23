@@ -14,14 +14,16 @@ import Inline from './components/Inline';
  
 import './appstyle.css';
 import Style from './appstyle.module.css';
+import Form from './components/Form';
+
 
 function App() {
 
   const numbers=[3,4,5,6];
   return (
     <div className="App">
-       <h1 className={Style.success}>Green</h1>
-       <h1 className='error'>Error</h1>
+       {/* <h1 className={Style.success}>Green</h1>
+       <h1 className='error'>Error</h1> */}
     {/* <Header name='Anuj'/>
     <Header2 name='Lallu'/>
    
@@ -34,8 +36,9 @@ function App() {
      <FunctionClick/>
      <CfunctionClick roll='22' numbers={numbers}/> */}
 
-     <Stylesheet isvalue={false}></Stylesheet>
-     <Inline></Inline>
+     {/* <Stylesheet isvalue={false}></Stylesheet>
+     <Inline></Inline> */}
+     <Form></Form>
     </div>
   );
 }
