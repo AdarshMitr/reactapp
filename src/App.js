@@ -10,13 +10,18 @@ import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CfunctionClick from './components/CfunctionClick';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+ 
+import './appstyle.css';
+import Style from './appstyle.module.css';
 
 function App() {
 
   const numbers=[3,4,5,6];
   return (
     <div className="App">
-       
+       <h1 className={Style.success}>Green</h1>
+       <h1 className='error'>Error</h1>
     {/* <Header name='Anuj'/>
     <Header2 name='Lallu'/>
    
@@ -30,6 +35,7 @@ function App() {
      <CfunctionClick roll='22' numbers={numbers}/> */}
 
      <Stylesheet isvalue={false}></Stylesheet>
+     <Inline></Inline>
     </div>
   );
 }
