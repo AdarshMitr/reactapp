@@ -15,7 +15,7 @@ import Inline from './components/Inline';
 import './appstyle.css';
 import Style from './appstyle.module.css';
 import Form from './components/Form';
-
+import Routing from './components/Routing';
 
 function App() {
 
@@ -38,7 +38,8 @@ function App() {
 
      {/* <Stylesheet isvalue={false}></Stylesheet>
      <Inline></Inline> */}
-     <Form></Form>
+     {/* <Form></Form> */}
+     <Routing> </Routing>
     </div>
   );
 }
