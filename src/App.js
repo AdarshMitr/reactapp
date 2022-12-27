@@ -17,7 +17,7 @@ import Style from './appstyle.module.css';
 import Form from './components/Form';
 import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
-
+import Product from './components/Product';
 
 function App() {
 
@@ -42,7 +42,10 @@ function App() {
      <Inline></Inline> */}
      {/* <Form></Form> */}
      {/* <Routing> </Routing> */}
-     <LifeCycleA></LifeCycleA>
+     {/* <LifeCycleA></LifeCycleA> */}
+     <Product></Product>
+
+     
     </div>
   );
 }
