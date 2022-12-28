@@ -18,6 +18,7 @@ import Form from './components/Form';
 import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
+import PostList from './components/PostList';
 
 function App() {
 
@@ -43,8 +44,8 @@ function App() {
      {/* <Form></Form> */}
      {/* <Routing> </Routing> */}
      {/* <LifeCycleA></LifeCycleA> */}
-     <Product></Product>
-
+     {/* <Product></Product> */}
+    <PostList></PostList>
      
     </div>
   );
