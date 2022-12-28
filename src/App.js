@@ -19,6 +19,7 @@ import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
 
@@ -45,8 +46,8 @@ function App() {
      {/* <Routing> </Routing> */}
      {/* <LifeCycleA></LifeCycleA> */}
      {/* <Product></Product> */}
-    <PostList></PostList>
-     
+    {/* <PostList></PostList> */}
+     <PostForm></PostForm>
     </div>
   );
 }
