@@ -50,7 +50,7 @@ function App() {
      {/* <Product></Product> */}
     {/* <PostList></PostList> */}
      {/* <PostForm></PostForm> */}
-     {/* <Counter></Counter> */}
+     <Counter></Counter>
      <HookCounter></HookCounter>
     </div>
   );

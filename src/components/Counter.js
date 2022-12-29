@@ -19,7 +19,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.buttonHandler}>Counter{this.state.counter+1}</button>
+        <button onClick={this.buttonHandler}>Counter{this.state.counter}</button>
       </div>
     )
   }
