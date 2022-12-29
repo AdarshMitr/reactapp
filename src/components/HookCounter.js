@@ -21,6 +21,12 @@ const Decrement=()=>{
     setcounter1(counter1 -1)
 }
 
+const Incremented=()=>{
+    for (let i=0;i<10;i++){
+        setcounter(preCount =>preCount+1)
+    }
+}
+
 useEffect(()=>{
     console.log("Adarsh Kumar Patel");
 }    )
@@ -35,6 +41,7 @@ useEffect(()=>{
 
 <button onClick={Increment}> Increment {counter}</button>
 <button onClick={Decrement}> Decrement {counter1}</button>
+<button onClick={Incremented}> Incremented by 10- {counter}</button>
     </div>
   )
 }
