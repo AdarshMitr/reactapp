@@ -20,6 +20,8 @@ import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import Counter from './components/Counter';
+import HookCounter from './components/HookCounter';
 
 function App() {
 
@@ -47,7 +49,9 @@ function App() {
      {/* <LifeCycleA></LifeCycleA> */}
      {/* <Product></Product> */}
     {/* <PostList></PostList> */}
-     <PostForm></PostForm>
+     {/* <PostForm></PostForm> */}
+     {/* <Counter></Counter> */}
+     <HookCounter></HookCounter>
     </div>
   );
 }
